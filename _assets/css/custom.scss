@@ -1,0 +1,58 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+    background-color: #0f172a;
+    color: #e2e8f0;
+}
+
+.site-header {
+    border-bottom: 1px solid #334155;
+    background-color: #1e293b;
+}
+
+.site-title, .site-title:visited {
+    color: #60a5fa;
+}
+
+.site-nav .page-link {
+    color: #94a3b8;
+}
+
+a {
+    color: #60a5fa;
+}
+
+a:hover {
+    color: #3b82f6;
+}
+
+.post-list > li {
+    border-bottom: 1px solid #334155;
+}
+
+.post-link {
+    color: #e2e8f0;
+}
+
+.post-meta {
+    color: #94a3b8;
+}
+
+.post-content {
+    h1, h2, h3, h4, h5, h6 {
+        color: #60a5fa;
+    }
+    
+    code {
+        background-color: #334155;
+        color: #e2e8f0;
+    }
+    
+    pre {
+        background-color: #1e293b;
+        border: 1px solid #334155;
+    }
+}
