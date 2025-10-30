@@ -1,0 +1,24 @@
+title: "ROOT OF EVIL"
+description: "By me"
+theme: minima
+url: "https://moon-harvest.github.io"
+baseurl: ""
+
+minima:
+  skin: dark
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
