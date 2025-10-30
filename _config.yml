@@ -4,6 +4,8 @@ theme: minima
 url: "https://moon-harvest.github.io"
 baseurl: ""
 
+permalink: none
+
 minima:
   skin: dark
 
