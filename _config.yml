@@ -3,8 +3,7 @@ description: "By me"
 theme: minima
 url: "https://moon-harvest.github.io"
 baseurl: ""
-
-permalink: none
+permalink: /:title/
 
 minima:
   skin: dark
